@@ -1,0 +1,2140 @@
+﻿UNIVERSIDAD  |  FACULTAD DE 
+INGENIERÃA
+Formulacion y Evaluacion de Proyectos de 
+TecnologÃ­as
+ de la 
+InformaciÃ³n
+INFORME ACADEMICO
+Identificacion y Analisis de Interesados (Stakeholders)
+Aplicando el Enfoque PMBOK  |  Caso Real: FlorerÃ­a Local
+Asignatura:
+Formulacion y Evaluacion de Proyectos TI
+Proyecto:
+TransformaciÃ³n
+ Digital â€“ Floreria Local
+Enfoque 
+MetodolÃ³gico
+:
+PMBOK 6.a Edicion â€“ Gestion de Interesados
+Fecha de Entrega:
+2025
+ÃNDICE
+1.  
+ENTRADAS DEL PROCESO (PMBOK)
+   1.1  
+Acta de 
+ConstituciÃ³n
+ del Proyecto
+   1.2  
+Documentos de Negocio
+   1.3  
+Plan para la 
+DirecciÃ³n
+ del Proyecto
+   1.4  
+Documentos del Proyecto
+   1.5  
+Acuerdos
+   1.6  
+Factores Ambientales de la Empresa
+   1.7  
+Activos de los Procesos de la 
+OrganizaciÃ³n
+2.  
+HERRAMIENTAS Y 
+TÃ‰CNICAS
+ APLICADAS
+   2.1  
+Juicio de Expertos
+   2.2  
+Entrevistas
+   2.3  
+ObservaciÃ³n
+ Directa
+   2.4  
+Tormenta de Ideas
+   2.5  
+Encuestas Propuestas
+   2.6  
+AnÃ¡lisis
+ de Datos
+   2.7  
+RepresentaciÃ³n
+ de Datos: Matriz Poderâ€“
+InterÃ©s
+   2.8  
+Reuniones
+3.  
+ANÃLISIS
+ DE STAKEHOLDERS
+   3.1  
+Identificacion de Interesados
+   3.2  
+ClasificaciÃ³n
+ por Impacto
+   3.3  
+EvaluaciÃ³n
+ de Influencia y 
+ReacciÃ³n
+4.  
+REPRESENTACION AVANZADA
+   4.1  
+Modelo de Prominencia
+   4.2  
+DirecciÃ³n
+ de la Influencia
+   4.3  
+ClasificaciÃ³n
+ de Stakeholders
+5.  
+SALIDAS DEL PROCESO
+   5.1  
+Registro Completo de Stakeholders
+   5.2  
+Posibles Solicitudes de Cambio
+   5.3  
+Actualizaciones al Plan de 
+DirecciÃ³n
+   5.4  
+Actualizaciones a Documentos del Proyecto
+6.  
+RECOMENDACIONES, RIESGOS Y 
+PRIORIZACIÃ“N
+   6.1  
+Recomendaciones Iniciales
+   6.2  
+Principales Riesgos Identificados
+   6.3  
+PriorizaciÃ³n
+ de Problemas
+7.  
+CONCLUSIONES
+RESUMEN EJECUTIVO
+El presente informe 
+acadÃ©mico
+ desarrolla el proceso de 
+IdentificaciÃ³n
+ y 
+AnÃ¡lisis
+ de Interesados (Stakeholders) para un proyecto de 
+transformaciÃ³n
+ digital aplicado a una 
+florerÃ­a
+ local categorizada como microempresa. La 
+elaboraciÃ³n
+ sigue rigurosamente el marco 
+metodolÃ³gico
+ establecido por el PMBOK (Project Management Body of Knowledge), 
+especÃ­ficamente
+ el proceso 13.1 â€“ Identificar a los Interesados, correspondiente al 
+Ã¡rea
+ de conocimiento de 
+GestiÃ³n
+ de los Interesados del Proyecto.
+La 
+florerÃ­a
+ objeto de estudio opera de manera artesanal y manual, sin 
+ningÃºn
+ sistema de 
+informaciÃ³n
+ digital. Su propietaria gestiona todas las operaciones con apoyo parcial de una vendedora, y los registros se realizan en cuadernos 
+fÃ­sicos
+. La 
+problemÃ¡tica
+ central incluye la ausencia de control de inventario, falta de base de datos de clientes, escaso alcance de mercado y alta estacionalidad de ventas.
+El objetivo del proyecto consiste en optimizar la 
+gestiÃ³n
+ operativa y comercial del negocio mediante la 
+implementaciÃ³n
+ de herramientas digitales accesibles, sin requerir desarrollo de software complejo, priorizando soluciones como sistemas de 
+gestiÃ³n
+ de inventario basados en la nube, estrategias de marketing digital y plataformas de registro de clientes.
+SECCION
+ 1: ENTRADAS DEL PROCESO (PMBOK)
+SegÃºn
+ el PMBOK, las entradas del proceso de 
+IdentificaciÃ³n
+ de Interesados constituyen toda la 
+informaciÃ³n
+ y 
+documentaciÃ³n
+ necesaria para llevar a cabo dicho proceso de manera 
+sistemÃ¡tica
+. A 
+continuaciÃ³n
+ se desarrollan cada una de las entradas aplicadas al caso real de la 
+florerÃ­a
+ local.
+1.1 Acta de 
+ConstituciÃ³n
+ del Proyecto
+El Acta de 
+ConstituciÃ³n
+ del Proyecto (Project Charter) es el documento que autoriza formalmente la existencia del proyecto y confiere al director del proyecto la autoridad para aplicar los recursos de la 
+organizaciÃ³n
+ a las actividades del proyecto. En el contexto de una microempresa como la 
+florerÃ­a
+, este documento adquiere 
+carÃ¡cter
+ 
+acadÃ©mico
+-
+prÃ¡ctico
+.
+ACTA DE CONSTITUCIÃ“N DEL PROYECTO
+Nombre del Proyecto
+TransformaciÃ³n
+ Digital para la 
+GestiÃ³n
+ Operativa y Comercial de 
+FlorerÃ­a
+ Local
+Patrocinador / Sponsor
+Propietaria de la 
+FlorerÃ­a
+ (Sra.
+Karina Canchari
+)
+Director del Proyecto
+Estudiante / Analista TI designado
+Fecha de Inicio
+Abril 2026
+Fecha estimada de cierre
+Junio 
+202
+6
+ (
+3 meses
+)
+Presupuesto Estimado
+S/. 3,500 â€“ S/. 5,000 (
+inversiÃ³n
+ inicial en herramientas digitales)
+PropÃ³sito
+ / 
+JustificaciÃ³n
+Modernizar la 
+gestiÃ³n
+ de la 
+florerÃ­a
+ mediante herramientas digitales de bajo costo para mejorar el control de inventario, ampliar el alcance de mercado y fidelizar clientes, incrementando la rentabilidad del negocio
+DescripciÃ³n
+ del Proyecto
+ImplementaciÃ³n
+ de un sistema digital de inventario, 
+creaciÃ³n
+ de presencia en redes sociales, 
+habilitaciÃ³n
+ de 
+catÃ¡logo
+ digital y registro estructurado de clientes mediante herramientas accesibles como Google Workspace, Canva y plataformas de e-commerce social.
+Supuestos Clave
+La propietaria dispone de tiempo para 
+capacitaciÃ³n
+; existe conectividad a internet en el local; los costos de las herramientas son asumibles por la empresa
+Restricciones
+Presupuesto limitado; nivel 
+bÃ¡sico
+ de 
+alfabetizaciÃ³n
+ digital de la propietaria; disponibilidad de tiempo parcial de la vendedora
+Criterios de 
+Ã‰xito
+ReducciÃ³n
+ del 80% de errores de inventario; incremento del 30% en ventas en los primeros 6 meses; registro de al menos 100 clientes en base de datos
+Stakeholders Identificados en el Acta
+Interesado
+Rol en el Proyecto
+Responsabilidad Principal
+Propietaria (
+Karina
+)
+Patrocinadora y usuaria final
+Aprobar decisiones, financiar el proyecto, adoptar los nuevos sistemas.
+Vendedora (Maria)
+Usuaria operativa
+Usar el sistema de inventario y registro de ventas diariamente
+Estudiante
+Director del Proyecto
+Planificar, ejecutar y supervisar la 
+implementaciÃ³n
+ 
+tecnolÃ³gica
+Clientes habituales
+Beneficiarios indirectos
+Recibir mejoras en el servicio, 
+catÃ¡logo
+ digital y 
+comunicaciÃ³n
+Proveedor de flores
+Interesado externo
+Adaptarse a los nuevos procesos de pedidos y abastecimiento
+Proveedor de internet
+Soporte 
+tÃ©cnico
+ externo
+Garantizar conectividad estable para el uso de herramientas cloud
+1.2 Documentos de Negocio
+1.2.1 Caso de Negocio (Business Case)
+El caso de negocio justifica la 
+inversiÃ³n
+ en el proyecto desde una perspectiva 
+econÃ³mica
+, operativa y 
+estratÃ©gica
+. Para la 
+florerÃ­a
+ local, se identifican los siguientes argumentos:
+PROBLEMA CENTRAL: La 
+florerÃ­a
+ opera con procesos completamente manuales que generan ineficiencias significativas. El registro de ventas en cuadernos impide un 
+anÃ¡lisis
+ 
+histÃ³rico
+ de datos, la ausencia de control de inventario provoca desabastecimiento o desperdicio de flores perecederas, y la falta de presencia digital limita el alcance a nuevos segmentos de mercado.
+Problema Identificado
+Impacto Actual
+Beneficio Esperado
+Falta de control de inventario
+Compras desorganizadas, merma de flores
+ReducciÃ³n
+ del desperdicio en 40%
+Sin base de datos de clientes
+Incapacidad de 
+fidelizaciÃ³n
+ y seguimiento
+CRM 
+bÃ¡sico
+ con 100+ clientes en 6 meses
+Bajo alcance de mercado
+Ventas limitadas al radio local 
+fÃ­sico
+Incremento de 30% en ventas por canales digitales
+Ventas inestables
+Dependencia exclusiva de fechas festivas
+Campa
+Ã±
+as digitales en fechas intermedias
+Procesos 100% manuales
+Errores, 
+pÃ©rdida
+ de tiempo, datos no trazables
+AutomatizaciÃ³n
+ de registros y reportes
+1.2.2 Plan de 
+GestiÃ³n
+ de Beneficios
+El plan de 
+gestiÃ³n
+ de beneficios define 
+como
+ y 
+cuÃ¡ndo
+ se 
+entregarÃ¡n
+ los beneficios del proyecto, y 
+como
+ se 
+medirÃ¡n
+.
+Beneficio
+MÃ©trica
+ de 
+MediciÃ³n
+Plazo
+Responsable
+Control de inventario digital
+% de 
+precisiÃ³n
+ en stock vs. pedidos reales
+3 meses
+Propietaria + Analista TI
+Base de datos de clientes
+N.Â° de clientes registrados
+6 meses
+Vendedora
+Presencia en redes sociales
+N.Â° de seguidores y alcance mensual
+1 mes
+Analista TI
+Incremento de ventas
+Comparativo mensual de ingresos
+6 meses
+Propietaria
+ReducciÃ³n
+ de merma
+Kg de flores desechadas vs. periodo anterior
+4 meses
+Propietaria
+1.3 Plan para la 
+DirecciÃ³n
+ del Proyecto
+1.3.1 Plan de 
+GestiÃ³n
+ de Comunicaciones
+El plan de comunicaciones establece como 
+fluye
+ la 
+informaciÃ³n
+ entre todos los interesados del proyecto. Dado que la 
+florerÃ­a
+ es una microempresa, el plan debe ser simple, 
+prÃ¡ctico
+ y adaptado a las capacidades 
+tecnolÃ³gicas
+ de la propietaria.
+Interesado
+InformaciÃ³n
+ Requerida
+Canal
+Frecuencia
+Responsable
+Propietaria (Ana)
+Avance del proyecto, decisiones clave
+ReuniÃ³n
+ presencial + WhatsApp
+Semanal
+Director del Proyecto
+Vendedora (Maria)
+Uso de nuevas herramientas, capacitaciones
+ReuniÃ³n
+ presencial + manual de uso
+Quincenal
+Director del Proyecto
+Clientes
+CatÃ¡logo
+ de productos, promociones
+Instagram, Facebook, WhatsApp Business
+Diario
+Propietaria + Vendedora
+Proveedor de flores
+Pedidos, 
+actualizaciÃ³n
+ de stock
+WhatsApp, llamada 
+telefÃ³nica
+Semanal
+Propietaria
+Analista TI
+Avances 
+tÃ©cnicos
+, problemas, mejoras
+Informe escrito + reunion
+Mensual
+Analista TI
+1.3.2 Plan de Involucramiento de Stakeholders
+El plan de involucramiento define la estrategia para gestionar la 
+participaciÃ³n
+ de cada interesado a lo largo del proyecto. Se establecen los niveles de involucramiento actual y deseado.
+Interesado
+Nivel Actual
+Nivel Deseado
+Brecha
+Estrategia de Involucramiento
+Propietaria (Ana)
+LÃ­der
+LÃ­der
+Ninguna
+Mantener liderazgo; sesiones de 
+decisiÃ³n
+ quincenal
+Vendedora (Maria)
+Resistente
+De apoyo
+Alta
+Capacitaciones progresivas; demostrar beneficios del sistema
+Clientes
+Desconoce
+Neutral
+Media
+DifusiÃ³n
+ en redes sociales y WhatsApp Business
+Proveedor flores
+Desconoce
+Neutral
+Baja
+ComunicaciÃ³n
+ directa sobre nuevos procesos de pedido
+Analista TI
+LÃ­der
+LÃ­der
+Ninguna
+Mantener rol central de 
+facilitaciÃ³n
+ 
+tÃ©cnica
+1.4 Documentos del Proyecto
+1.4.1 Registro de Incidentes (
+versiÃ³n
+ inicial)
+ID
+DescripciÃ³n
+ del Incidente
+Impacto
+Estado
+Responsable
+Fecha
+I-01
+Resistencia de vendedora al cambio 
+tecnolÃ³gico
+AdopciÃ³n
+ del sistema 
+podrÃ­a
+ retrasarse
+Abierto
+Dir. Proyecto
+Ene-2025
+I-02
+Ausencia de internet estable en el local
+Imposibilidad de usar herramientas cloud
+En evaluacion
+Propietaria
+Ene-2025
+I-03
+Datos 
+histÃ³ricos
+ de ventas no disponibles
+AnÃ¡lisis
+ de base de datos imposible
+Abierto
+Propietaria
+Ene-2025
+1.4.2 Requisitos Preliminares
+Los requisitos preliminares fueron identificados durante la visita exploratoria al negocio y la entrevista inicial con la propietaria:
+REQ-01: Sistema de registro de inventario digital (stock de flores, peluches, globos, chocolates).
+REQ-02: Base de datos de clientes con nombre, 
+telÃ©fono e
+ historial de compras.
+REQ-03: 
+CatÃ¡logo
+ digital de productos disponible en redes sociales.
+REQ-04: Sistema de registro de ventas diarias con 
+generaciÃ³n
+ de reportes semanales.
+REQ-05: Estrategia de marketing digital para fechas festivas y 
+dÃ­as
+ ordinarios.
+REQ-06: 
+IntegraciÃ³n
+ de pedidos por WhatsApp Business con 
+vÃ­nculo
+ a 
+catÃ¡logo
+.
+REQ-07: 
+CapacitaciÃ³n
+ a la propietaria y vendedora en el uso de herramientas digitales.
+1.5 Acuerdos
+En el marco del proyecto, se establecieron los siguientes acuerdos formales e informales entre las partes involucradas:
+Tipo de Acuerdo
+Partes Involucradas
+Contenido Principal
+Acuerdo de 
+colaboraciÃ³n
+ verbal
+Propietaria â€“ Analista TI
+Acceso al local para 
+observaciÃ³n
+ y levantamiento de 
+informaciÃ³n
+ durante el 
+anÃ¡lisis
+Acuerdo de confidencialidad
+Propietaria â€“ Analista TI
+Los datos del negocio (ventas, proveedores, clientes) 
+serÃ¡n
+ usados 
+solo
+ con fines 
+acadÃ©micos
+Compromiso de disponibilidad
+Vendedora â€“ Dir. Proyecto
+Participacion en al menos 2 sesiones de 
+capacitaciÃ³n
+ por mes
+Acuerdo de uso de herramientas
+Propietaria â€“ Proveedor cloud
+Uso de cuentas gratuitas o de bajo costo (Google, Canva, Meta Business)
+1.6 Factores Ambientales de la Empresa (EEF)
+Los factores ambientales de la empresa son condiciones externas e internas que influyen en el proyecto sin estar bajo control directo del equipo.
+Tipo
+Factor
+Naturaleza
+Impacto en el Proyecto
+Interno
+Nivel 
+bÃ¡sico
+ de 
+alfabetizaciÃ³n
+ digital de la propietaria
+RestricciÃ³n
+Requiere 
+capacitaciÃ³n
+ extensiva; herramientas deben ser intuitivas
+Interno
+Disponibilidad parcial de la vendedora (3 
+dÃ­as
+/semana)
+RestricciÃ³n
+El sistema debe ser 
+fÃ¡cil
+ de retomar sin continuidad
+Externo
+Alta 
+penetraciÃ³n
+ de smartphones en el Peru (&gt;85%)
+Oportunidad
+Facilita uso de apps 
+mÃ³viles
+ para gestion e Instagram
+Externo
+Crecimiento del comercio electronico en Peru post-COVID
+Oportunidad
+Mercado receptivo a compras por WhatsApp e Instagram
+Externo
+Competencia de florerÃ­as con presencia digital
+Amenaza
+Urgencia de 
+digitalizaciÃ³n
+ para no perder cuota de mercado
+Externo
+Disponibilidad de herramientas gratuitas (Google, Meta, Canva)
+Oportunidad
+Reduce significativamente la 
+inversiÃ³n
+ inicial requerida
+1.7 Activos de los Procesos de la 
+OrganizaciÃ³n
+ (OPA)
+Los activos de los procesos de la 
+organizaciÃ³n
+ incluyen los planes, procesos, 
+polÃ­ticas
+, procedimientos y bases de conocimiento 
+especÃ­ficos
+ de la 
+organizaciÃ³n
+. Para la floreria, estos activos son escasos pero relevantes:
+Registro manual de ventas en cuaderno: constituye el 
+Ãºnico
+ historial de transacciones disponible, aunque incompleto e inconsistente.
+Conocimiento 
+tÃ¡cito
+ de la propietaria: experiencia de varios 
+aÃ±os
+ en el negocio floral, incluyendo conocimiento de temporadas, proveedores y preferencias de clientes habituales.
+Listado informal de clientes frecuentes: nombres y 
+telÃ©fonos
+ guardados en el celular personal de la propietaria 
+vÃ­a
+ contactos de WhatsApp.
+Relaciones establecidas con proveedores: contratos verbales y acuerdos de 
+crÃ©dito
+ con proveedores de flores del mercado mayorista local.
+Experiencia en fechas festivas: conocimiento 
+empÃ­rico
+ de los picos de demanda en fechas como San Valentin, Dia de la Madre, Navidad y 
+AÃ±o
+ Nuevo.
+SECCIÃ“N
+ 2: HERRAMIENTAS Y 
+TÃ‰CNICAS
+ APLICADAS
+Las herramientas y 
+tÃ©cnicas
+ del proceso de 
+IdentificaciÃ³n
+ de Interesados permiten recopilar, analizar y estructurar la 
+informaciÃ³n
+ necesaria para comprender quienes son los interesados y 
+cÃ³mo
+ se relacionan con el proyecto. A 
+continuaciÃ³n
+ se explica y aplica cada una de ellas al caso concreto de la 
+florerÃ­a
+.
+2.1 Juicio de Expertos
+El juicio de expertos implica consultar a personas con conocimiento especializado para orientar las decisiones del proyecto. En este caso, el analista de sistemas (rol del estudiante) aporta los siguientes criterios expertos:
+IdentificaciÃ³n
+ de herramientas digitales de bajo costo adecuadas para microempresas: Google Sheets para inventario, Google Forms para encuestas de clientes, WhatsApp Business para 
+atenciÃ³n
+ al cliente, Instagram y Facebook para marketing digital.
+DeterminaciÃ³n
+ de la 
+metodologÃ­a
+ de 
+transformaciÃ³n
+ digital 
+mÃ¡s
+ apropiada: enfoque incremental, comenzando por las necesidades 
+mÃ¡s
+ 
+crÃ­ticas
+ (inventario y registro de ventas) antes de avanzar a marketing digital.
+EvaluaciÃ³n
+ de la viabilidad 
+tÃ©cnica
+: considerando el nivel de 
+alfabetizaciÃ³n
+ digital de la propietaria, se recomienda comenzar con herramientas 
+mÃ³viles
+ e intuitivas antes de implementar soluciones 
+mÃ¡s
+ complejas.
+IdentificaciÃ³n
+ de los stakeholders clave: basado en la 
+teorÃ­a
+ organizacional y el PMBOK, el analista identifica que en una microempresa los stakeholders externos (clientes y proveedores) tienen mayor impacto en la sostenibilidad que en proyectos corporativos.
+2.2 Entrevistas
+Las entrevistas realizadas tuvieron un 
+carÃ¡cter
+ exploratorio e improvisado, 
+caracterÃ­stico
+ de la fase inicial de levantamiento de 
+informaciÃ³n
+ en microempresas. La entrevista principal se 
+realizÃ³
+ con la propietaria en el propio local comercial, en un ambiente informal pero revelador.
+CARACTERÃSTICAS
+ DE LA ENTREVISTA REALIZADA:
+Tipo: No estructurada / exploratoria
+DuraciÃ³n
+ aproximada: 45 minutos
+Entrevistada: Propietaria (Sra. Ana)
+Lugar: Local de la 
+florerÃ­a
+Tecnica: Preguntas abiertas con 
+observaciÃ³n
+ simultanea del entorno
+PREGUNTAS MEJORADAS PROPUESTAS PARA FUTURAS ENTREVISTAS:
+N.Â°
+Pregunta Mejorada
+Objetivo de la Pregunta
+1
+Â¿
+CuÃ¡ntas
+ unidades de cada tipo de producto vende en promedio por semana y como 
+varÃ­a
+ esto en fechas festivas versus 
+dÃ­as
+ normales?
+Cuantificar estacionalidad y 
+volÃºmenes
+ para dimensionar el sistema de inventario
+2
+Â¿
+CuÃ¡ntos
+ clientes habituales puede identificar usted actualmente y como los contacta cuando tiene un nuevo producto o 
+promociÃ³n
+?
+Evaluar el estado actual de la 
+relaciÃ³n
+ con clientes para 
+diseÃ±ar
+ el CRM
+3
+Â¿Que tan 
+cÃ³modo
+/a se siente usted usando aplicaciones en su celular? Â¿
+CuÃ¡les
+ usa con mayor frecuencia?
+Determinar nivel de 
+alfabetizaciÃ³n
+ digital para adaptar las herramientas a implementar
+4
+Â¿Con 
+cuÃ¡ntos
+ proveedores trabaja actualmente? Â¿
+CÃ³mo
+ realiza los pedidos y con 
+quÃ©
+ frecuencia?
+Mapear la cadena de abastecimiento para optimizar el proceso de compras
+5
+Â¿Ha perdido 
+algÃºn
+ cliente o venta importante por no tener stock disponible o por no poder comunicarse a tiempo?
+Evidenciar el impacto 
+econÃ³mico
+ real de la falta de gestion
+6
+Â¿
+CuÃ¡nto
+ tiempo al 
+dÃ­a
+ dedica a tareas administrativas como registrar ventas, hacer inventario o contactar proveedores?
+Medir la carga operativa actual para calcular el ahorro de tiempo con la 
+digitalizaciÃ³n
+7
+Si tuviera una herramienta que le 
+avisarÃ¡
+ 
+automÃ¡ticamente
+ cuando el stock de rosas 
+estÃ¡
+ por agotarse, Â¿la 
+usarÃ­a
+? Â¿Por 
+quÃ©
+?
+Identificar disposicion al cambio y 
+comprensiÃ³n
+ del valor de la 
+tecnologÃ­a
+2.3 
+ObservaciÃ³n
+ Directa
+La 
+observaciÃ³n
+ directa consiste en presenciar el funcionamiento real del negocio para identificar problemas que los interesados no mencionan 
+explÃ­citamente
+. Durante la visita al local se 
+observÃ³
+:
+El cuaderno de registro de ventas mostraba entradas incompletas: algunas con precio, otras sin cantidad, otras solo con el nombre del producto.
+El inventario 
+fÃ­sico
+ era estimado visualmente por la propietaria ('tengo como 20 rosas blancas'), sin un conteo 
+sistemÃ¡tico
+.
+Los mensajes de WhatsApp mezclaban consultas de clientes con comunicaciones personales, sin 
+separaciÃ³n
+ de canales.
+La vendedora 
+debÃ­a
+ consultar a la propietaria por 
+telÃ©fono
+ para confirmar precios y disponibilidad cuando estaba sola en la tienda.
+Los productos estaban agrupados sin etiquetas de precio, dependiendo completamente del conocimiento 
+memorÃ­stico
+ de la propietaria.
+2.4 Tormenta de Ideas (Brainstorming)
+La tormenta de ideas fue empleada para identificar el mayor 
+nÃºmero
+ posible de interesados y soluciones potenciales. Participaron el analista TI y la propietaria. Los resultados principales fueron:
+INTERESADOS IDENTIFICADOS POR BRAINSTORMING:
+Propietaria, vendedora, clientes actuales, clientes potenciales, proveedores de flores, proveedores de materiales (cintas, papel), proveedor de globos con helio, proveedores de peluches, proveedor de internet/datos, plataformas digitales (Meta, Google), competencia local, municipalidad (licencia de funcionamiento), familiares de la propietaria (que a veces apoyan en fechas festivas).
+SOLUCIONES PROPUESTAS EN BRAINSTORMING:
+Google Sheets para inventario; WhatsApp Business para 
+atenciÃ³n
+ al cliente; Instagram/Facebook para 
+catÃ¡logo
+; Google Forms para registro de clientes; Canva para 
+diseÃ±o
+ de publicaciones; Trello para 
+gestiÃ³n
+ de tareas; Google Calendar para programar 
+campaÃ±as
+; QR codes para precios de productos.
+2.5 Encuestas Propuestas
+Se propone el uso de encuestas breves para recopilar datos cuantitativos de dos grupos clave: clientes de la 
+florerÃ­a
+ y potenciales clientes del entorno. Dado que actualmente no existe base de datos de clientes, las encuestas iniciales se 
+realizaron
+ de forma presencial en el local.
+Encuesta Propuesta para Clientes Actuales (5 preguntas)
+1. Â¿Con 
+quÃ©
+ frecuencia compra flores u otros regalos en esta 
+florerÃ­a
+? (Semanal / Quincenal / Mensual / Solo fechas especiales)
+2. Â¿
+CÃ³mo
+ se 
+enterÃ³
+ de esta 
+florerÃ­a
+? (
+RecomendaciÃ³n
+ / Paso por el lugar / Redes sociales / Otro)
+3. Â¿Le 
+gustarÃ­a
+ recibir ofertas y novedades por WhatsApp o Instagram? (Si / No)
+4. Â¿
+QuÃ©
+ le 
+gustarÃ­a
+ encontrar que actualmente no hay en la 
+florerÃ­a
+? (Pregunta abierta)
+5. Del 1 al 10, Â¿como 
+califica
+ la 
+atenciÃ³n
+ y disponibilidad de productos?
+Encuesta Propuesta para Clientes Potenciales (entorno del local)
+1. Â¿Compra flores o regalos con frecuencia? Â¿
+DÃ³nde
+ los adquiere normalmente?
+2. Â¿
+UsarÃ­a
+ un 
+catÃ¡logo
+ digital por Instagram/WhatsApp para pedir flores sin ir a la tienda?
+3. Â¿
+QuÃ©
+ productos adicionales le 
+gustarÃ­a
+ que ofreciera una 
+florerÃ­a
+ local?
+4. Â¿
+EstarÃ­a
+ dispuesto/a a pagar por entrega a domicilio de flores? Â¿
+CuÃ¡nto
+?
+2.6 
+AnÃ¡lisis
+ de Datos
+2.6.1 
+AnÃ¡lisis
+ de Interesados
+El 
+anÃ¡lisis
+ de interesados consiste en recopilar y analizar de forma 
+sistemÃ¡tica
+ 
+informaciÃ³n
+ cuantitativa y cualitativa para determinar los intereses particulares de cada stakeholder, su 
+participaciÃ³n
+, interdependencias, influencia y posible impacto en el 
+Ã©xito
+ del proyecto.
+Para la floreria, el 
+anÃ¡lisis
+ revela tres grupos diferenciados de interesados:
+GRUPO A â€“ Interesados internos de alta influencia: Propietaria y Analista TI. Son quienes toman las decisiones y ejecutan el proyecto. Su 
+alineaciÃ³n
+ es 
+crÃ­tica
+.
+GRUPO B â€“ Interesados internos de influencia media: Vendedora. Su 
+adopciÃ³n
+ del sistema 
+determinarÃ¡
+ el 
+Ã©xito
+ operativo del 
+dÃ­a
+ a 
+dÃ­a
+.
+GRUPO C â€“ Interesados externos: Clientes, proveedores y plataformas digitales. Su involucramiento determina el impacto comercial del proyecto.
+2.6.2 
+AnÃ¡lisis
+ de Documentos
+El 
+anÃ¡lisis
+ de documentos implica revisar la 
+informaciÃ³n
+ disponible del negocio para identificar interesados y comprender el contexto. En el caso de la floreria, los documentos analizados fueron:
+Cuaderno de registro de ventas: 
+revelÃ³
+ inconsistencias en el registro, ausencia de datos de clientes y falta de 
+categorÃ­as
+ de productos.
+Conversaciones de WhatsApp (con permiso de la propietaria): mostraron el volumen real de consultas de clientes y los tipos de pedidos 
+mÃ¡s
+ frecuentes.
+Recibos de proveedores: permitieron mapear los principales proveedores y los montos aproximados de compra por 
+categorÃ­a
+.
+2.7 
+RepresentaciÃ³n
+ de Datos: Matriz Poder â€“ 
+InterÃ©s
+La Matriz Poder-
+InterÃ©s
+ es una herramienta de 
+representaciÃ³n
+ visual que clasifica a los interesados 
+segÃºn
+ dos dimensiones: el poder (nivel de autoridad o influencia sobre el proyecto) y el 
+interÃ©s
+ (grado de involucramiento o 
+afectaciÃ³n
+ por los resultados del proyecto). Esta 
+clasificaciÃ³n
+ permite definir la estrategia de 
+gestiÃ³n
+ para cada stakeholder.
+BAJO PODER
+ALTO PODER
+ALTO 
+INTERÃ‰S
+MANTENER INFORMADOS
+Clientes actuales
+Vendedora (Maria)
+GESTIONAR DE CERCA
+Propietaria (Ana)
+Analista TI
+BAJO 
+INTERÃ‰S
+MONITOREAR
+Proveedor de internet
+Plataformas digitales
+MANTENER SATISFECHOS
+Proveedor de flores
+Proveedor de peluches/globos
+La matriz revela que los interesados 
+mÃ¡s
+ 
+crÃ­ticos
+ para el proyecto son la Propietaria y el Analista TI (cuadrante Gestionar de Cerca), quienes deben recibir 
+comunicaciÃ³n
+ constante y participar activamente en todas las decisiones. Los clientes y la vendedora, al tener alto 
+interÃ©s
+ pero menor poder de 
+decisiÃ³n
+, deben mantenerse informados y motivados.
+2.8 Reuniones
+Las reuniones constituyen una herramienta fundamental para validar 
+informaciÃ³n
+, tomar decisiones y construir compromisos con los interesados. Para el proyecto de la 
+florerÃ­a
+ se definieron los siguientes tipos de reuniones:
+ReuniÃ³n
+ de inicio del proyecto (Kick-off): 
+sesiÃ³n
+ de 2 horas con propietaria y analista TI para presentar el plan del proyecto, aclarar expectativas y firmar el acta de 
+constituciÃ³n
+.
+Reuniones de seguimiento semanal: sesiones de 30 minutos 
+vÃ­a
+ WhatsApp o presencial para revisar avances, resolver impedimentos y ajustar el plan.
+Sesiones de 
+capacitaciÃ³n
+: talleres 
+prÃ¡cticos
+ de 1-2 horas para entrenar a la propietaria y vendedora en el uso de cada herramienta digital implementada.
+ReuniÃ³n
+ de cierre de fase: al concluir cada etapa del proyecto, 
+sesiÃ³n
+ para validar entregables y definir los siguientes pasos.
+SECCIÃ“N
+ 3: ANALISIS DE STAKEHOLDERS
+3.1 Identificacion de Interesados
+La 
+identificaciÃ³n
+ de interesados es el proceso sistematico de determinar las personas, grupos u organizaciones que 
+podrÃ­an
+ afectar o ser afectados por el proyecto, y de analizar y documentar 
+informaciÃ³n
+ relevante sobre sus intereses, 
+participaciÃ³n
+, interdependencias, influencia e impacto potencial en el 
+Ã©xito
+ del proyecto (PMBOK, 2017).
+ID
+Nombre / Grupo
+Rol
+InterÃ©s
+ Principal
+Influencia
+Expectativas
+Niv. Conocimiento TI
+S-01
+Propietaria (Ana)
+Patrocinadora / Usuaria
+Mejorar rentabilidad y control del negocio
+Muy Alta
+Reducir tiempo en tareas admin.; incrementar ventas
+BÃ¡sico
+S-02
+Vendedora (Maria)
+Usuaria operativa
+Facilitar su trabajo diario
+Media
+Herramientas simples que no compliquen su labor
+Muy 
+bÃ¡sico
+S-03
+Analista TI
+Director del Proyecto
+Ã‰xito
+ del proyecto; aprendizaje profesional
+Alta
+ColaboraciÃ³n
+ activa de la propietaria
+Avanzado
+S-04
+Clientes actuales
+Beneficiarios directos
+Mejor servicio, 
+catÃ¡logo
+ digital, delivery
+Media
+Disponibilidad, facilidad de pedido, precios claros
+Variable
+S-05
+Clientes potenciales
+Beneficiarios futuros
+Conocer la 
+florerÃ­a
+ y acceder a productos
+Baja
+Presencia en redes sociales con buena imagen
+Variable
+S-06
+Proveedor de flores
+Proveedor clave
+Mantener volumen de pedidos y pagos puntuales
+Media
+Ã“rdenes
+ organizadas y predictibles
+Bajo
+S-07
+Proveedor de globos/peluches
+Proveedor secundario
+Continuidad de la 
+relaciÃ³n
+ comercial
+Baja
+Pedidos regulares y 
+comunicaciÃ³n
+ fluida
+Bajo
+S-08
+Proveedor de internet
+Soporte 
+tÃ©cnico
+Fidelizar al cliente con su servicio
+Baja
+No aplica directamente al proyecto
+Alto
+S-09
+Plataformas digitales (Meta, Google)
+Infraestructura digital
+ExpansiÃ³n
+ del uso de sus herramientas
+Baja
+No aplica directamente al proyecto
+N/A
+S-10
+Municipalidad local
+Ente regulador
+Cumplimiento normativo del negocio
+Media
+No aplica directamente al proyecto
+N/A
+3.2 
+ClasificaciÃ³n
+ por Impacto (Matriz Poder â€“ 
+InterÃ©s
+ Detallada)
+ID
+Stakeholder
+Poder (1-5)
+InterÃ©s
+ (1-5)
+Cuadrante
+Estrategia
+Prioridad
+S-01
+Propietaria (Ana)
+5
+5
+Gestionar de Cerca
+Comunicacion constante; 
+inclusiÃ³n
+ en decisiones
+CRÃTICA
+S-03
+Analista TI
+4
+5
+Gestionar de Cerca
+AutonomÃ­a
+ 
+tÃ©cnica
+; reporte regular
+CRÃTICA
+S-02
+Vendedora (Maria)
+2
+4
+Mantener Informados
+CapacitaciÃ³n
+; mostrar beneficios; escuchar feedback
+ALTA
+S-04
+Clientes actuales
+2
+4
+Mantener Informados
+ComunicaciÃ³n
+ 
+vÃ­a
+ redes y WhatsApp; encuestas
+ALTA
+S-06
+Proveedor de flores
+3
+2
+Mantener Satisfechos
+ComunicaciÃ³n
+ regular de pedidos; pago puntual
+MEDIA
+S-05
+Clientes potenciales
+1
+3
+Mantener Informados
+Campanas de marketing en redes sociales
+MEDIA
+S-07
+Prov. peluches/globos
+2
+2
+Monitorear
+ComunicaciÃ³n
+ solo cuando sea necesario
+BAJA
+S-08
+Proveedor de internet
+1
+1
+Monitorear
+Asegurar contrato de servicio estable
+BAJA
+S-09
+Plataformas digitales
+1
+1
+Monitorear
+Uso de versiones gratuitas o de bajo costo
+BAJA
+S-10
+Municipalidad
+3
+1
+Mantener Satisfechos
+Cumplir con normativas vigentes
+BAJA
+3.3 Evaluacion: Influencia y 
+ReacciÃ³n
+ Potencial
+La 
+evaluaciÃ³n
+ de interesados permite anticipar comportamientos y 
+diseÃ±ar
+ estrategias de 
+gestiÃ³n
+ proactivas. Para cada stakeholder clave se analiza 
+cÃ³mo
+ puede influir en el proyecto y 
+cÃ³mo
+ 
+podrÃ­a
+ reaccionar ante los cambios.
+Stakeholder
+CÃ³mo
+ puede influir
+ReacciÃ³n
+ esperada
+Estrategia recomendada
+Propietaria (Ana)
+Puede aprobar o rechazar la 
+implementaciÃ³n
+ de cualquier herramienta; controla el presupuesto y el tiempo disponible para 
+capacitaciÃ³n
+Positiva si ve beneficios concretos 
+rÃ¡pidos
+; negativa si percibe complejidad o costo elevado
+Iniciar con herramientas gratuitas y de impacto inmediato visible; involucrarla en cada 
+decisiÃ³n
+Vendedora (Maria)
+Puede facilitar o sabotear el uso diario del sistema; si no lo usa correctamente, los datos seran inutiles
+Inicialmente resistente por temor a la 
+tecnologÃ­a
+ o a perder su empleo; luego adaptable con apoyo
+Sesiones de 
+capacitaciÃ³n
+ 
+prÃ¡ctica
+; demostrar que la tecnologia facilita su trabajo, no la reemplaza
+Clientes actuales
+Si adoptan el 
+catÃ¡logo
+ digital y WhatsApp Business, generan ventas; si no lo usan, el impacto en ingresos 
+serÃ¡
+ menor
+Positiva: la 
+mayorÃ­a
+ de los clientes ya 
+usan
+ WhatsApp y redes sociales, 
+estarÃ¡n
+ receptivos
+Lanzar catalogo atractivo en Instagram; ofrecer descuento por primer pedido online
+Proveedor de flores
+Puede retrasar o acelerar el abastecimiento; su 
+disposiciÃ³n
+ a recibir pedidos organizados es clave para la cadena de suministro
+Neutra
+ a positiva: un sistema organizado le beneficia 
+tambiÃ©n
+ a el al reducir pedidos de emergencia
+Comunicarle los cambios con 
+anticipaciÃ³n
+; mostrar que los pedidos 
+serÃ¡n
+ 
+mÃ¡s
+ predictibles
+SECCION 4: 
+REPRESENTACIÃ“N
+ AVANZADA DE STAKEHOLDERS
+4.1 Modelo de Prominencia (Mitchell, Agle y Wood, 1997)
+El Modelo de Prominencia clasifica a los interesados 
+segÃºn
+ tres atributos: Poder (capacidad de imponer su voluntad), Legitimidad (validez moral o legal de su involucramiento) y Urgencia (necesidad de 
+atenciÃ³n
+ inmediata de sus demandas). La 
+combinaciÃ³n
+ de estos atributos genera 7 tipos de interesados.
+Stakeholder
+Poder
+Legitimidad
+Urgencia
+Tipo
+DescripciÃ³n
+ Aplicada
+Propietaria (Ana)
+SI
+SI
+SI
+DEFINITIVO
+Interesada con los 3 atributos; 
+mÃ¡xima
+ prioridad de atencion
+Analista TI
+SI
+SI
+SI
+DEFINITIVO
+Rol 
+legÃ­timo
+, urgente y con poder de ejecucion tecnica
+Vendedora (Maria)
+NO
+SI
+SI
+DEPENDIENTE
+Demandas urgentes y 
+legÃ­timas
+ pero sin poder real de decision
+Clientes actuales
+NO
+SI
+SI
+DEPENDIENTE
+Sus necesidades son 
+vÃ¡lidas
+ y urgentes para el negocio, aunque no deciden
+Proveedor de flores
+SI
+SI
+NO
+DOMINANTE
+Poder e influencia 
+legÃ­tima
+ pero sus demandas no son urgentes para el proyecto
+Municipalidad
+SI
+SI
+NO
+DOMINANTE
+Autoridad regulatoria 
+legÃ­tima
+, pero su impacto en el proyecto es indirecto
+Clientes potenciales
+NO
+NO
+SI
+URGENTE
+Solo el atributo de urgencia (oportunidad de mercado)
+Proveedor de internet
+NO
+SI
+NO
+DISCRECIONAL
+Solo legitimidad; sin poder ni urgencia inmediata
+El modelo de prominencia es especialmente 
+Ãºtil
+ porque va 
+mÃ¡s
+ 
+allÃ¡
+ de la simple matriz poder-
+interÃ©s
+: permite identificar interesados que, aunque no tengan poder formal, tienen reclamaciones urgentes y 
+legÃ­timas
+ que deben atenderse para garantizar el 
+Ã©xito
+ del proyecto. En el caso de la 
+florerÃ­a
+, los clientes actuales emergen como interesados dependientes que merecen 
+atenciÃ³n
+ prioritaria a pesar de no tener poder de 
+decisiÃ³n
+.
+4.2 
+DirecciÃ³n
+ de la Influencia
+Este modelo analiza la 
+direcciÃ³n
+ en la que fluye la influencia entre los stakeholders y el proyecto. Se identifican tres patrones principales:
+Tipo de Influencia
+Stakeholder
+Mecanismo de Influencia
+Ejemplo Concreto en la 
+FlorerÃ­a
+Ascendente (hacia el proyecto)
+Propietaria (Ana)
+Autoriza o veta decisiones; controla el presupuesto
+Si la propietaria decide no invertir en internet 
+mÃ³vil
+, el proyecto no puede avanzar
+Ascendente (hacia el proyecto)
+Clientes actuales
+Su comportamiento de compra valida o invalida las estrategias digitales
+Si los clientes no usan el catalogo de Instagram, la estrategia debe reformularse
+Descendente (desde el proyecto)
+Vendedora (Maria)
+El proyecto la capacita y modifica su forma de trabajar
+La vendedora adopta Google Sheets para registro diario de ventas
+Descendente (desde el proyecto)
+Proveedor de flores
+El proyecto optimiza el proceso de pedidos, afectando al proveedor
+Pedidos mas organizados y anticipados mejoran la 
+planificaciÃ³n
+ del proveedor
+Lateral (entre stakeholders)
+Propietaria â†” Vendedora
+La propietaria instruye a la vendedora; la vendedora da feedback operativo
+La vendedora reporta que ciertos clientes prefieren ordenar por WhatsApp directo
+Lateral (entre stakeholders)
+Clientes â†” Redes Sociales
+Los clientes generan contenido (comentarios, 
+reseÃ±as
+) que afecta la reputacion
+Una buena reseÃ±a en Instagram atrae nuevos clientes sin costo adicional
+4.3 
+ClasificaciÃ³n
+ de Stakeholders (Modelo Multidimensional)
+Esta 
+clasificaciÃ³n
+ combina 
+mÃºltiples
+ dimensiones para ofrecer una 
+visiÃ³n
+ integral de cada stakeholder, facilitando la 
+personalizaciÃ³n
+ de las estrategias de 
+gestiÃ³n
+.
+Stakeholder
+Interno/Externo
+Activo/Pasivo
+Apoyo/Neutro/Opuesto
+Conoce el Proyecto
+Impacto en Proyecto
+ClasificaciÃ³n
+ Final
+Propietaria (Ana)
+Interno
+Activo
+Apoyo
+Si
+CrÃ­tico
+Aliado Clave
+Analista TI
+Interno
+Activo
+Apoyo
+Si
+CrÃ­tico
+Aliado Clave
+Vendedora (Maria)
+Interno
+Pasivo
+Neutro-Resistente
+Parcial
+Alto
+Por Convertir
+Clientes actuales
+Externo
+Activo
+Apoyo
+No
+Alto
+Beneficiario Activo
+Clientes potenciales
+Externo
+Pasivo
+Neutral
+No
+Medio
+Audiencia Objetivo
+Proveedor de flores
+Externo
+Pasivo
+Neutral
+No
+Medio
+Stakeholder de Soporte
+Municipalidad
+Externo
+Pasivo
+Neutral
+No
+Bajo-Regulatorio
+Ente Regulador
+Proveedor internet
+Externo
+Pasivo
+Neutral
+No
+Bajo-
+TÃ©cnico
+Soporte Tecnico
+SECCIÃ“N
+ 5: SALIDAS DEL PROCESO
+5.1 Registro Completo de Stakeholders
+El Registro de Stakeholders es el principal entregable del proceso de 
+IdentificaciÃ³n
+ de Interesados. Contiene 
+informaciÃ³n
+ detallada de 
+identificaciÃ³n
+, 
+evaluaciÃ³n
+ y 
+clasificaciÃ³n
+ de todos los interesados identificados.
+ID
+Nombre
+OrganizaciÃ³n
+Rol PMBOK
+InformaciÃ³n
+ contacto
+Requisitos Clave
+Expectativas
+Influencia
+Estrategia PMBOK
+S-01
+Ana (Propietaria)
+FlorerÃ­a
+ Local
+Patrocinadora
+Contacto directo / WhatsApp
+Control de inventario; 
+mÃ¡s
+ ventas
+ROI 
+rÃ¡pido
+; simplicidad
+MUY ALTA
+Gestionar de Cerca
+S-02
+Maria (Vendedora)
+FlorerÃ­a
+ Local
+Usuaria operativa
+WhatsApp / en local
+Sistema 
+fÃ¡cil
+ de usar
+No perder empleo; trabajar mejor
+MEDIA
+Mantener Informada
+S-03
+Analista TI
+Universidad / Equipo
+Director Proyecto
+Email / 
+reuniÃ³n
+ presencial
+CooperaciÃ³n
+ de todos
+Ã‰xito
+ del proyecto; nota academica
+ALTA
+Gestionar de Cerca
+S-04
+Clientes (habituales)
+Comunidad local
+Usuarios beneficiarios
+WhatsApp / Instagram
+CatÃ¡logo
+ digital; delivery
+Mejor servicio y 
+comunicaciÃ³n
+MEDIA
+Mantener Informados
+S-05
+Clientes potenciales
+Comunidad local
+Audiencia objetivo
+Redes sociales
+Conocer la 
+florerÃ­a
+Acceso 
+fÃ¡cil
+ y precios claros
+BAJA
+Monitorear
+S-06
+Proveedor flores
+Mercado mayorista
+Proveedor clave
+Telefono / WhatsApp
+Pedidos organizados
+Pagos puntuales y pedidos claros
+MEDIA
+Mantener Satisfecho
+S-07
+Prov. peluches/globos
+Distribuidor
+Proveedor secundario
+TelÃ©fono
+Continuidad de pedidos
+RelaciÃ³n
+ comercial estable
+BAJA
+Monitorear
+S-08
+Proveedor Internet
+Empresa telecom.
+Proveedor servicio TI
+Contrato de servicio
+ConexiÃ³n
+ estable
+Fidelizar al cliente
+BAJA
+Monitorear
+S-09
+Meta / Google
+CorporaciÃ³n
+ TI
+Plataforma digital
+TÃ©rminos
+ de servicio
+Cumplir 
+polÃ­ticas
+ de uso
+Expansion de base de usuarios
+BAJA
+Monitorear
+S-10
+Municipalidad
+Gobierno local
+Ente regulador
+TrÃ¡mites
+ oficiales
+Cumplimiento normativo
+FormalizaciÃ³n
+ del negocio
+MEDIA
+Mantener Satisfecha
+5.2 Posibles Solicitudes de Cambio
+ID
+Solicitud de Cambio
+Origen / Solicitante
+Tipo
+Estado
+Impacto
+SC-01
+Incluir 
+mÃ³dulo
+ de pedidos por WhatsApp desde el inicio (no en fase 2)
+Propietaria (Ana) â€“ desea impacto inmediato en ventas
+Alcance
+Pendiente 
+evaluaciÃ³n
+Adelanta trabajo; puede generar 
+sobrecarga
+ inicial
+SC-02
+CapacitaciÃ³n
+ de vendedora en horario fuera de su turno habitual
+Vendedora (Maria) â€“ solo disponible 3 
+dÃ­as
+/semana
+Cronograma
+Aprobado
+Requiere 
+reorganizaciÃ³n
+ de agenda del analista
+SC-03
+Agregar 
+mÃ³dulo
+ de control de chocolates y peluches al inventario desde fase 1
+Propietaria â€“ detecta necesidad durante levantamiento
+Alcance
+Aprobado
+Incrementa levemente el trabajo de 
+configuraciÃ³n
+ inicial
+SC-04
+Solicitud de sistema de 
+facturaciÃ³n
+ 
+electrÃ³nica
+ integrado
+Propietaria â€“ 
+recomendaciÃ³n
+ de contador externo
+Alcance
+Rechazado (fuera del alcance)
+Complejidad 
+tÃ©cnica
+ excesiva para la fase actual del proyecto
+5.3 Actualizaciones al Plan de 
+DirecciÃ³n
+ del Proyecto
+Componente del Plan
+Actualizacion Requerida
+JustificaciÃ³n
+Plan de Requisitos
+Incorporar REQ-08: Sistema de pedidos integrado con WhatsApp Business desde Fase 1
+Solicitud de cambio SC-01 aprobada; la propietaria prioriza el impacto en ventas
+Plan de Comunicaciones
+Agregar canal de video-tutoriales (YouTube cortos) para 
+capacitaciÃ³n
+ de la vendedora
+La vendedora tiene mayor disponibilidad de aprendizaje 
+autÃ³nomo
+ fuera de sus horarios
+Plan de Riesgos
+Agregar riesgo de resistencia al cambio de la vendedora con plan de 
+mitigaciÃ³n
+ especifico
+Identificado durante analisis de stakeholders; nivel alto de probabilidad e impacto
+Plan de Stakeholders
+Actualizar nivel deseado de involucramiento de clientes de Neutral a De Apoyo
+Las encuestas preliminares muestran mayor 
+disposiciÃ³n
+ de los clientes al uso de canales digitales
+5.4 Actualizaciones a Documentos del Proyecto
+5.4.1 Registro de Supuestos
+ID
+Supuesto
+CategorÃ­a
+Riesgo si no se cumple
+SUP-01
+La propietaria 
+destinarÃ¡
+ al menos 5 horas semanales al proyecto durante los primeros 3 meses
+Recursos humanos
+Retraso en la 
+implementaciÃ³n
+ de todas las fases
+SUP-02
+El local cuenta con 
+conexiÃ³n
+ a internet de al menos 10 Mbps de forma continua
+Infraestructura 
+tÃ©cnica
+Imposibilidad de usar herramientas cloud en tiempo real
+SUP-03
+Las herramientas gratuitas de Google y Meta 
+serÃ¡n
+ suficientes para las necesidades del proyecto
+TecnologÃ­a
+Necesidad de 
+inversiÃ³n
+ adicional no prevista en el presupuesto
+SUP-04
+La vendedora 
+estÃ¡
+ dispuesta a aprender y a usar el nuevo sistema tras la 
+capacitaciÃ³n
+Recursos humanos
+El sistema de inventario no se 
+usarÃ¡
+ correctamente en los 
+dÃ­as
+ sin la propietaria
+SUP-05
+Los clientes habituales tienen acceso a smartphone y redes sociales
+Mercado
+La estrategia de marketing digital no 
+alcanzarÃ¡
+ al segmento objetivo
+5.4.2 Registro de Riesgos
+ID
+DescripciÃ³n
+ del Riesgo
+Probabilidad
+Impacto
+Nivel
+Estrategia de Respuesta
+R-01
+Resistencia al cambio de la vendedora impide 
+adopciÃ³n
+ del sistema
+Alta
+Alto
+CRÃTICO
+Plan de 
+capacitaciÃ³n
+; incentivos; demostracion practica de beneficios
+R-02
+La propietaria abandona el proyecto por falta de tiempo o resultados 
+rÃ¡pidos
+Media
+Muy Alto
+CRÃTICO
+Establecer hitos cortos con resultados visibles; comenzar con quick wins
+R-03
+Fallo en la 
+conexiÃ³n
+ a internet paraliza el uso de herramientas cloud
+Media
+Alto
+ALTO
+Instalar plan de datos 
+mÃ³vil
+ como respaldo; usar versiones offline cuando sea posible
+R-04
+Los clientes no adoptan los canales digitales propuestos
+Baja
+Alto
+MEDIO
+Prueba piloto con grupo reducido de clientes; ajustar estrategia 
+segÃºn
+ feedback
+R-05
+El proveedor no puede adaptarse a nuevos procesos de pedido
+Baja
+Medio
+BAJO
+ComunicaciÃ³n
+ temprana; ofrecer alternativas de comunicacion (WhatsApp o llamada)
+R-06
+PÃ©rdida
+ de datos por falta de respaldo en la nube
+Baja
+Alto
+MEDIO
+Configurar copias de seguridad 
+automÃ¡ticas
+ en Google Drive desde el inicio
+SECCION 6: RECOMENDACIONES, RIESGOS Y 
+PRIORIZACIÃ“N
+6.1 Recomendaciones Iniciales del Proyecto
+N.Â°
+RecomendaciÃ³n
+Herramienta Sugerida
+RazÃ³n
+ / Fundamento
+1
+Iniciar con un sistema de inventario digital simple antes de cualquier otra 
+implementaciÃ³n
+Google Sheets con plantilla de inventario + Google Forms para registro de entradas y salidas
+El control de inventario es el punto 
+crÃ­tico
+ 
+mÃ¡s
+ urgente; sin el, no es posible optimizar compras ni ventas
+2
+Crear cuenta de WhatsApp Business para separar la vida personal de la 
+gestiÃ³n
+ del negocio
+WhatsApp Business (gratuito) con catalogo de productos y respuestas 
+automÃ¡ticas
+SoluciÃ³n
+ de impacto inmediato, sin costo, que la propietaria ya sabe usar; mejora 
+percepciÃ³n
+ de profesionalismo
+3
+Abrir perfiles en Instagram y Facebook con contenido 
+fotogrÃ¡fico
+ de calidad
+Instagram Business + Facebook Business Suite + Canva (disenio gratuito)
+El comercio visual de flores es ideal para redes sociales; incrementa alcance sin costo de publicidad inicial
+4
+Capacitar progresivamente a la propietaria y vendedora, comenzando por una herramienta a la vez
+Sesiones 
+prÃ¡cticas
+ de 1 hora; videotutoriales cortos en YouTube; manual 
+rÃ¡pido
+ impreso
+La sobreexposicion a multiples sistemas 
+simultÃ¡neos
+ genera rechazo y abandono; avanzar paso a paso garantiza 
+adopciÃ³n
+5
+Implementar un registro basico de clientes desde la primera semana
+Google Contacts o Google Sheets como mini-CRM: nombre, telefono, fecha de cumpleanos, preferencias
+La base de datos de clientes es el activo digital 
+mÃ¡s
+ valioso para una 
+florerÃ­a
+; comenzar cuanto antes a construirla
+6
+Definir una estrategia de contenido para fechas festivas con 30 dias de anticipacion
+Google Calendar + Canva + Meta Business Suite
+Las fechas festivas representan el 60-70% de las ventas; planificar 
+campaÃ±as
+ digitales con 
+anticipaciÃ³n
+ maximiza el ROI
+6.2 Principales Riesgos Identificados (Mapa de Riesgos)
+Riesgo
+Probabilidad
+Impacto
+Nivel
+CategorÃ­a
+Plan de 
+MitigaciÃ³n
+Abandono del proyecto por la propietaria
+Media (40%)
+Muy Alto
+CRÃTICO
+Organizacional
+Quick wins tempranos; reunion mensual de resultados con 
+mÃ©tricas
+ visibles
+Resistencia 
+tecnolÃ³gica
+ de la vendedora
+Alta (65%)
+Alto
+CRÃTICO
+Recursos Humanos
+CapacitaciÃ³n
+ gamificada; involucrarla en el 
+diseÃ±o
+ del sistema
+Fallo de conectividad a internet
+Media (35%)
+Alto
+ALTO
+Tecnico
+Plan de datos 
+mÃ³vil
+ de respaldo; uso de versiones offline de Google Sheets
+Perdida de datos 
+crÃ­ticos
+ del negocio
+Baja (20%)
+Muy Alto
+ALTO
+Tecnico
+Copias de seguridad diarias 
+automÃ¡ticas
+ en Google Drive; 
+capacitaciÃ³n
+ en respaldo
+No 
+adopciÃ³n
+ del catalogo digital por clientes
+Baja (25%)
+Alto
+MEDIO
+Mercado
+Prueba piloto; incentivos para clientes que ordenen por Instagram por primera vez
+Competencia que ya tiene presencia digital 
+mÃ¡s
+ fuerte
+Alta (70%)
+Medio
+MEDIO
+Mercado
+DiferenciaciÃ³n
+ por servicio personalizado y trato cercano; enfoque en clientes locales fieles
+6.3 
+PriorizaciÃ³n
+ de Problemas (Matriz de Impacto y Urgencia)
+La siguiente tabla prioriza los problemas identificados en la floreria 
+segÃºn
+ su impacto en el negocio (nivel de 
+daÃ±o
+ que causa) y su urgencia de 
+atenciÃ³n
+ (que tan pronto debe resolverse), permitiendo una secuencia 
+lÃ³gica
+ de 
+implementaciÃ³n
+.
+N.Â°
+Problema
+Impacto (1-5)
+Urgencia (1-5)
+Prioridad Total
+Orden de 
+AtenciÃ³n
+SoluciÃ³n
+ Recomendada
+1
+Falta de control de inventario
+5
+5
+10 â€“ 
+CRÃTICA
+1.Â° PRIMERO
+Google Sheets inventario + Google Forms
+2
+Ventas inestables (alta estacionalidad)
+5
+4
+9 â€“ 
+CRÃTICA
+2.Â° PRIMERO
+Calendario de marketing digital + 
+campaÃ±as
+3
+No hay registro de clientes
+4
+5
+9 â€“ 
+CRÃTICA
+2.Â° PRIMERO
+Mini CRM en Google Sheets / Contacts
+4
+Bajo alcance de mercado
+4
+4
+8 â€“ ALTA
+3.Â° SEGUNDO
+Instagram + Facebook + WhatsApp Business
+5
+Procesos administrativos manuales lentos
+3
+4
+7 â€“ ALTA
+4.Â° SEGUNDO
+Google Sheets + Google Forms para ventas diarias
+6
+Sin 
+catÃ¡logo
+ digital de productos
+3
+3
+6 â€“ MEDIA
+5.Â° TERCERO
+CatÃ¡logo
+ de WhatsApp Business + Instagram
+7
+ComunicaciÃ³n
+ desordenada con clientes
+3
+3
+6 â€“ MEDIA
+5.Â° TERCERO
+WhatsApp Business con respuestas 
+automÃ¡ticas
+8
+Desconocimiento de proveedores alternativos
+2
+2
+4 â€“ BAJA
+6.Â° A FUTURO
+InvestigaciÃ³n
+ de mercado de proveedores locales
+SECCIÃ“N
+ 7: CONCLUSIONES
+El presente informe ha desarrollado de manera rigurosa y aplicada el proceso de 
+IdentificaciÃ³n
+ y 
+AnÃ¡lisis
+ de Interesados para el proyecto de 
+transformaciÃ³n
+ digital de la 
+florerÃ­a
+ local, siguiendo fielmente el marco 
+metodolÃ³gico
+ del PMBOK. Las principales conclusiones son las siguientes:
+La 
+aplicaciÃ³n
+ del enfoque PMBOK en el contexto de una microempresa demuestra que los principios de 
+gestiÃ³n
+ de proyectos son escalables y aplicables independientemente del 
+tamaÃ±o
+ de la 
+organizaciÃ³n
+. El proceso de 
+identificaciÃ³n
+ de stakeholders resulta igualmente valioso en entornos 
+pequeÃ±os
+ donde las relaciones interpersonales tienen un peso 
+aÃºn
+ mayor en el 
+Ã©xito
+ del proyecto.
+Se identificaron 10 interesados distintos, clasificados en cuatro cuadrantes de la Matriz Poder-
+InterÃ©s
+, con estrategias de 
+gestiÃ³n
+ diferenciadas para cada grupo. Los interesados 
+mÃ¡s
+ 
+crÃ­ticos
+ (Propietaria y Analista TI) requieren 
+comunicaciÃ³n
+ constante y 
+participaciÃ³n
+ activa en las decisiones, mientras que los interesados de bajo poder deben ser monitoreados para evitar sorpresas.
+El Modelo de Prominencia 
+agregar
+ valor significativo al 
+anÃ¡lisis
+ al revelar que los clientes actuales, aunque sin poder formal, son interesados dependientes con demandas urgentes y 
+legÃ­timas
+ que determinan la viabilidad comercial del proyecto. Esta perspectiva no es visible en la simple Matriz Poder-
+InterÃ©s
+.
+La resistencia 
+tecnolÃ³gica
+ de la vendedora y el riesgo de abandono del proyecto por la propietaria emergen como los dos riesgos de nivel 
+CRÃTICO
+ que deben ser gestionados proactivamente desde el primer 
+dÃ­a
+ del proyecto, con estrategias de 
+comunicaciÃ³n
+, 
+capacitaciÃ³n
+ e incentivos claramente definidas.
+La 
+priorizaciÃ³n
+ de problemas indica que el control de inventario, la 
+estabilizaciÃ³n
+ de ventas y el registro de clientes son las tres 
+Ã¡reas
+ que deben abordarse de manera inmediata y 
+simultÃ¡nea
+, dado que presentan los niveles 
+mÃ¡s
+ altos de impacto y urgencia. Las soluciones propuestas son de bajo costo y alta factibilidad para el contexto de la microempresa.
+La 
+transformaciÃ³n
+ digital de la 
+florerÃ­a
+ no requiere inversiones en desarrollo de software a medida. Las herramientas gratuitas o de bajo costo disponibles en el ecosistema Google y Meta son suficientes para resolver todas las 
+problemÃ¡ticas
+ identificadas, siempre que se 
+gestione
+ adecuadamente el cambio organizacional y la 
+capacitaciÃ³n
+ del personal.
+En 
+sÃ­ntesis
+, este proyecto de transformacion digital representa una oportunidad real y alcanzable de mejora para la 
+florerÃ­a
+ local. El exito 
+depende
+ en mayor medida de la 
+gestiÃ³n
+ de los interesados que de la 
+tecnologÃ­a
+ en si misma, ratificando la premisa fundamental del PMBOK: los proyectos los ejecutan personas, y gestionar eficazmente a esas personas es la clave del 
+Ã©xito
+.
+REFERENCIAS BIBLIOGRÃFICAS
+Project Management Institute. (2017). Guia de los Fundamentos para la DirecciÃ³n de Proyectos (PMBOK Guide) â€“ Sexta EdiciÃ³n. PMI.
+Mitchell, R.K., Agle, B.R. &amp; Wood, D.J. (1997). Toward a Theory of Stakeholder Identification and Salience. Academy of Management Review, 22(4), 853-886.
+Freeman, R.E. (1984). Strategic Management: A Stakeholder Approach. Pitman Publishing.
+INEI. (2023). Encuesta Nacional de Hogares y EstadÃ­sticas de TecnologÃ­a de la InformaciÃ³n en PerÃº. Instituto Nacional de Estadistica e Informatica.

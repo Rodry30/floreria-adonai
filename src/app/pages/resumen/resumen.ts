@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-rose-400">Florería Adonai</span>
           </h1>
           <p class="text-lg text-teal-50 leading-relaxed opacity-90 max-w-xl font-medium">
-            Un enfoque sistemático basado en PMBOK (6.ª Edición) para modernizar la gestión operativa y comercial de una microempresa floral mediante herramientas digitales accesibles.
+            Un enfoque sistemático basado en PMBOK (7.ma Edición) para modernizar la gestión operativa y comercial de una microempresa floral mediante herramientas digitales accesibles.
           </p>
         </div>
         <div class="lg:w-1/2 w-full flex justify-center lg:justify-end">

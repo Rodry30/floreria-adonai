@@ -1,8 +1,43 @@
 import { Component } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
+
+interface PdfDoc {
+  title: string;
+  filename: string;
+  description: string;
+  safeUrl?: SafeResourceUrl;
+}
 
 @Component({
   selector: 'app-resumen',
   standalone: true,
+  imports: [CommonModule],
+  styles: [`
+    .pdf-modal-overlay {
+      position: fixed; inset: 0; z-index: 9999;
+      background: rgba(0,0,0,0.85);
+      display: flex; align-items: center; justify-content: center;
+      animation: fadeIn 0.2s ease;
+    }
+    @keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+    .pdf-modal-box {
+      background: #1e293b; border-radius: 1.25rem;
+      width: 92vw; height: 90vh;
+      display: flex; flex-direction: column;
+      box-shadow: 0 40px 80px rgba(0,0,0,0.6);
+      overflow: hidden;
+      animation: slideUp 0.25s ease;
+    }
+    @keyframes slideUp { from { transform: translateY(30px); opacity:0 } to { transform: translateY(0); opacity:1 } }
+    .pdf-modal-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.5rem;
+      background: #0f172a; border-bottom: 1px solid #334155;
+    }
+    .pdf-modal-iframe { flex: 1; border: none; width: 100%; }
+    .pdf-card-iframe { width: 100%; height: 420px; border: none; border-radius: 0 0 1rem 1rem; background:#f8fafc; }
+  `],
   template: `
     <!-- Hero Section -->
     <section class="relative bg-teal-800 text-white overflow-hidden rounded-2xl mb-12 shadow-xl border border-teal-700">
@@ -37,7 +72,7 @@ import { Component } from '@angular/core';
       </div>
       <h2 class="text-4xl font-extrabold text-teal-950 tracking-tight">Resumen Ejecutivo</h2>
     </div>
-    
+
     <details class="group bg-white rounded-2xl shadow-sm border border-slate-200 mb-16 overflow-hidden" open>
       <summary class="cursor-pointer font-bold text-teal-900 p-6 bg-gradient-to-r from-teal-50/50 to-white hover:bg-teal-50 transition-colors flex justify-between items-center text-lg">
         <div class="flex items-center gap-3">
@@ -47,16 +82,16 @@ import { Component } from '@angular/core';
         <svg class="w-6 h-6 text-teal-600 group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
       </summary>
       <div class="p-8 border-t border-slate-100 text-slate-600 leading-relaxed space-y-5 text-lg">
-        <p>El presente informe académico desarrolla el proceso de <strong>Identificación y Análisis de Interesados (Stakeholders)</strong> para un proyecto de transformación digital aplicado a una florería local categorizada como microempresa. La elaboración sigue rigurosamente el marco metodológico establecido por el PMBOK (Project Management Body of Knowledge), específicamente el proceso 13.1 – Identificar a los Interesados, correspondiente al área de conocimiento de Gestión de los Interesados del Proyecto.</p>
-        <p>La florería objeto de estudio opera de manera artesanal y manual, sin ningún sistema de información digital. Su propietaria gestiona todas las operaciones con apoyo parcial de una vendedora, y los registros se realizan en cuadernos físicos. La problemática central incluye la ausencia de control de inventario, falta de base de datos de clientes, escaso alcance de mercado y alta estacionalidad de ventas.</p>
+        <p>El presente informe académico documenta la formulación de un proyecto de transformación digital aplicado a la Florería Adonai, una microempresa familiar de Lima dedicada a la venta de arreglos florales, peluches, globos y chocolates. El negocio opera de forma enteramente manual: el inventario se estima visualmente, las ventas se registran en un cuaderno sin formato, los pedidos llegan por WhatsApp personal y el negocio no cuenta con presencia digital activa.</p>
+        <p>La formulación sigue una metodología dual: el Marco Lógico como estructura general de diagnóstico y el PMBOK 7.ma edición — proceso 13.1 – Identificar a los Interesados — como herramienta de análisis de involucrados.</p>
         <div class="bg-rose-50/50 border-l-4 border-rose-500 p-6 rounded-r-xl mt-6 text-rose-900 shadow-sm">
-          <strong class="text-rose-700 block mb-2 text-xl">🎯 Objetivo Principal:</strong> 
-          Optimizar la gestión operativa y comercial del negocio mediante la implementación de herramientas digitales accesibles, sin requerir desarrollo de software complejo, priorizando soluciones como sistemas de gestión de inventario basados en la nube, estrategias de marketing digital y plataformas de registro de clientes.
+          <strong class="text-rose-700 block mb-2 text-xl">🎯 Objetivo Principal:</strong>
+          <p>El objetivo central es mejorar la gestión operativa y comercial de la florería mediante el diseño de herramientas digitales básicas, gratuitas o de bajo costo, ejecutables en un periodo académico de 8 semanas por un equipo de cuatro estudiantes.</p>
         </div>
       </div>
     </details>
 
-    <!-- Galería y Recursos -->
+    <!-- Galería de Evidencias -->
     <div class="mb-8 flex items-center gap-4">
       <div class="p-3 bg-teal-100 rounded-xl">
         <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
@@ -64,40 +99,143 @@ import { Component } from '@angular/core';
       <h2 class="text-4xl font-extrabold text-teal-950 tracking-tight">Galería de Evidencias</h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-      <!-- Documento -->
-      <a href="#" class="group relative flex flex-col items-center justify-center p-8 bg-white rounded-3xl border border-slate-200 hover:border-rose-400 hover:shadow-2xl transition-all aspect-square duration-300">
-        <div class="w-24 h-24 bg-rose-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-rose-100 group-hover:rotate-6 transition-all duration-300">
-          <svg class="w-12 h-12 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-        </div>
-        <span class="text-xl font-extrabold text-slate-800 text-center leading-tight mb-2">PROYECTO_<br/>FLORERIA.docx</span>
-        <span class="text-sm text-rose-600 font-bold opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300 flex items-center gap-1">
-          Descargar Documento <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-        </span>
-      </a>
-
-      <!-- Foto Real -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+      <!-- Foto Local -->
       <div class="group relative rounded-3xl overflow-hidden bg-slate-200 aspect-square shadow-sm border border-slate-200">
         <img src="/floreria.jpg" alt="Interior Florería" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
         <div class="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-teal-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
           <span class="text-white font-black text-2xl drop-shadow-lg tracking-tight mb-1">Vista del Local</span>
-          <span class="text-teal-200 text-sm font-semibold flex items-center gap-1">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-            Evidencia Inicial
-          </span>
+          <span class="text-teal-200 text-sm font-semibold">📷 Evidencia Inicial</span>
         </div>
       </div>
-
-      <!-- Add New -->
-      <div class="group relative rounded-3xl overflow-hidden bg-slate-50 aspect-square border-2 border-dashed border-slate-300 flex items-center justify-center hover:border-teal-400 hover:bg-teal-50/30 transition-all cursor-pointer duration-300">
-        <div class="text-center p-8">
-          <div class="w-20 h-20 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-100 group-hover:scale-110 transition-all duration-300 shadow-sm">
-            <svg class="w-10 h-10 text-slate-400 group-hover:text-teal-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+      <!-- Evidencias 1-6 -->
+      <ng-container *ngFor="let ev of evidencias">
+        <div class="group relative rounded-3xl overflow-hidden bg-slate-200 aspect-square shadow-sm border border-slate-200">
+          <img [src]="ev.src" [alt]="ev.label" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          <div [class]="'absolute inset-0 bg-gradient-to-t ' + ev.grad + ' opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8'">
+            <span [class]="'text-white font-black text-2xl drop-shadow-lg tracking-tight mb-1'">{{ ev.label }}</span>
+            <span [class]="'text-sm font-semibold ' + ev.textColor">📷 {{ ev.sub }}</span>
           </div>
-          <span class="text-lg font-bold text-slate-600 group-hover:text-teal-700 transition-colors">Añadir Nueva<br/>Evidencia</span>
         </div>
+      </ng-container>
+    </div>
+
+    <!-- Documentos PDF -->
+    <div class="mb-8 flex items-center gap-4">
+      <div class="p-3 bg-rose-100 rounded-xl">
+        <svg class="w-8 h-8 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+      </div>
+      <h2 class="text-4xl font-extrabold text-teal-950 tracking-tight">Documentos PDF</h2>
+    </div>
+
+    <div class="flex flex-col gap-10 mb-16">
+      <ng-container *ngFor="let doc of pdfs">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+          <!-- Header del card -->
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-6 border-b border-slate-100 bg-gradient-to-r from-rose-50/60 to-white">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+              </div>
+              <div>
+                <h3 class="font-extrabold text-slate-800 text-lg leading-tight">{{ doc.title }}</h3>
+                <p class="text-slate-500 text-sm mt-0.5">{{ doc.description }}</p>
+              </div>
+            </div>
+            <!-- Botones -->
+            <div class="flex items-center gap-3 flex-shrink-0">
+              <button
+                (click)="openModal(doc)"
+                class="flex items-center gap-2 px-4 py-2.5 bg-teal-600 hover:bg-teal-700 text-white font-bold rounded-xl transition-all duration-200 shadow hover:shadow-md hover:-translate-y-0.5 text-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+                Pantalla completa
+              </button>
+              <a
+                [href]="'/' + doc.filename"
+                [download]="doc.filename"
+                class="flex items-center gap-2 px-4 py-2.5 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-xl transition-all duration-200 shadow hover:shadow-md hover:-translate-y-0.5 text-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                Descargar
+              </a>
+            </div>
+          </div>
+          <!-- Visor inline -->
+          <iframe
+            [src]="doc.safeUrl"
+            class="pdf-card-iframe"
+            title="{{ doc.title }}">
+          </iframe>
+        </div>
+      </ng-container>
+    </div>
+
+    <!-- Modal pantalla completa -->
+    <div class="pdf-modal-overlay" *ngIf="modalDoc" (click)="closeModal($event)">
+      <div class="pdf-modal-box" (click)="$event.stopPropagation()">
+        <div class="pdf-modal-header">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 bg-rose-500/20 rounded-lg flex items-center justify-center">
+              <svg class="w-4 h-4 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+            </div>
+            <span class="text-white font-bold text-base">{{ modalDoc.title }}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <a [href]="'/' + modalDoc.filename" [download]="modalDoc.filename"
+              class="flex items-center gap-1.5 px-3 py-1.5 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-lg text-sm transition-colors">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+              Descargar
+            </a>
+            <button (click)="closeModalDirect()"
+              class="flex items-center justify-center w-9 h-9 bg-slate-700 hover:bg-slate-600 text-slate-300 hover:text-white rounded-lg transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+          </div>
+        </div>
+        <iframe [src]="modalDoc.safeUrl" class="pdf-modal-iframe" [title]="modalDoc.title"></iframe>
       </div>
     </div>
   `
 })
-export class ResumenComponent {}
+export class ResumenComponent {
+  modalDoc: PdfDoc | null = null;
+
+  evidencias = [
+    { src: '/evidencia1.jpeg', label: 'Evidencia 1', sub: 'Visita al local',            grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
+    { src: '/evidencia2.jpeg', label: 'Evidencia 2', sub: 'Entrevista con propietaria', grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
+    { src: '/evidencia3.jpeg', label: 'Evidencia 3', sub: 'Registro manual de ventas',  grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
+    { src: '/evidencia4.jpeg', label: 'Evidencia 4', sub: 'Reunión del equipo',         grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
+    { src: '/evidencia5.jpeg', label: 'Evidencia 5', sub: 'Productos del negocio',      grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
+    { src: '/evidencia6.jpeg', label: 'Evidencia 6', sub: 'Proceso de pedidos',         grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
+  ];
+
+  pdfs: PdfDoc[];
+
+  constructor(private sanitizer: DomSanitizer) {
+    this.pdfs = [
+      {
+        title: 'Guía de Entrevista y Encuesta — Stakeholders',
+        filename: 'guia_entrevista_encuesta_stakeholders.pdf',
+        description: 'Instrumento aplicado para la identificación y análisis de los interesados del proyecto.',
+      },
+    ].map(doc => ({
+      ...doc,
+      safeUrl: this.sanitizer.bypassSecurityTrustResourceUrl('/' + doc.filename),
+    }));
+  }
+
+  openModal(doc: PdfDoc) {
+    this.modalDoc = doc;
+    document.body.style.overflow = 'hidden';
+  }
+
+  closeModal(event: MouseEvent) {
+    if ((event.target as HTMLElement).classList.contains('pdf-modal-overlay')) {
+      this.closeModalDirect();
+    }
+  }
+
+  closeModalDirect() {
+    this.modalDoc = null;
+    document.body.style.overflow = '';
+  }
+}

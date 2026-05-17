@@ -59,7 +59,7 @@ interface PdfDoc {
         </div>
         <div class="lg:w-1/2 w-full flex justify-center lg:justify-end">
           <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 transform hover:-translate-y-2 transition-transform duration-500 w-full max-w-lg aspect-[4/3]">
-            <img src="/floreria.jpg" alt="Interior de la florería" class="w-full h-full object-cover" />
+            <img src="/evidencia2.jpeg" alt="Interior de la florería" class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
@@ -100,15 +100,7 @@ interface PdfDoc {
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-      <!-- Foto Local -->
-      <div class="group relative rounded-3xl overflow-hidden bg-slate-200 aspect-square shadow-sm border border-slate-200">
-        <img src="/floreria.jpg" alt="Interior Florería" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-        <div class="absolute inset-0 bg-gradient-to-t from-teal-950/90 via-teal-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-          <span class="text-white font-black text-2xl drop-shadow-lg tracking-tight mb-1">Vista del Local</span>
-          <span class="text-teal-200 text-sm font-semibold">📷 Evidencia Inicial</span>
-        </div>
-      </div>
-      <!-- Evidencias 1-6 -->
+      <!-- Evidencias -->
       <ng-container *ngFor="let ev of evidencias">
         <div class="group relative rounded-3xl overflow-hidden bg-slate-200 aspect-square shadow-sm border border-slate-200">
           <img [src]="ev.src" [alt]="ev.label" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
@@ -200,12 +192,11 @@ export class ResumenComponent {
   modalDoc: PdfDoc | null = null;
 
   evidencias = [
-    { src: '/evidencia1.jpeg', label: 'Evidencia 1', sub: 'Visita al local',            grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
     { src: '/evidencia2.jpeg', label: 'Evidencia 2', sub: 'Entrevista con propietaria', grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
-    { src: '/evidencia3.jpeg', label: 'Evidencia 3', sub: 'Registro manual de ventas',  grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
-    { src: '/evidencia4.jpeg', label: 'Evidencia 4', sub: 'Reunión del equipo',         grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
+    { src: '/evidencia3.jpeg', label: 'Evidencia 3', sub: 'Registro de ventas',  grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
+    { src: '/evidencia4.jpeg', label: 'Evidencia 4', sub: 'Detalle de producto',         grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
     { src: '/evidencia5.jpeg', label: 'Evidencia 5', sub: 'Productos del negocio',      grad: 'from-teal-950/90 via-teal-900/30 to-transparent', textColor: 'text-teal-200' },
-    { src: '/evidencia6.jpeg', label: 'Evidencia 6', sub: 'Proceso de pedidos',         grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
+    { src: '/evidencia6.jpeg', label: 'Evidencia 6', sub: 'Catálogo de productos',         grad: 'from-rose-950/90 via-rose-900/30 to-transparent',  textColor: 'text-rose-200'  },
   ];
 
   pdfs: PdfDoc[];
